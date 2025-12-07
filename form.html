@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form per riprovare</title>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sopra">    
+            <div class="chiamaci">
+                <i class="bi bi-telephone-fill"></i>
+                <p>Chiamaci <strong>800.185.095</strong></p>
+            </div>
+            <div class="menu">
+                <div>
+                <button class="accedi">Accedi</button>
+            </div>
+            <div>
+                <img src="foto/image.png" alt="">   
+            </div>
+            <div style="display: flex; gap:10px">
+                <i class="bi bi-search"></i>
+                <i class="bi bi-list"></i>
+            </div>
+        </div>
+    </div>
+
+    <div style="margin:10px">
+
+    
+
+    <form >
+        
+        <h2 style="color: rgba(207, 29, 86); text-align: center; border-bottom: 2px solid rgba(207, 29, 86); padding-bottom: 10px;">Modulo di Ricorso - Sezione Anagrafica e Coerenza Logistica</h2>
+    <p style="font-size: 0.9em; color: #555;">La compilazione precisa è necessaria per la rianalisi dell'elaborato.</p>
+
+
+        <label for="nome_cognome">1. Nome e Cognome (Completi e Legali):</label>
+        <input type="text" id="nome_cognome" name="nome_cognome" required>
+
+        <label for="matricola">2. Matricola Universitaria (ID di Riferimento):</label>
+        <input type="text" id="matricola" name="matricola" required>
+
+        <label for="muro_casa">3. Data e ora di nascita:</label>
+        <input type="date" required>
+        <input type="time" required>
+
+        <label for="muro_casa">4. Breve descrizione del suo elaborato:</label>
+        <input type="textarea" id="muro_casa" name="muro_casa"  required>
+
+        <label for="muro_casa">5. Sesso:</label>
+        <select name="" id="">
+            <option value="#">Maschio</option>
+            <option value="#">Femmina</option>
+            <option value="#">Transessuale</option>
+        </select>
+
+        <label for="scarpa">6. Numero di Scarpa (Misura Europea - Necessario per la Valutazione Logistica):</label>
+        <select id="scarpa" name="scarpa" required>
+            <option value="">Seleziona la Misura Esatta</option>
+            <option value="33">33</option>
+            <option value="33.5">33.5</option>
+            <option value="34">34</option>
+            <option value="34.5">34.5</option>
+            <option value="35">35</option>
+            <option value="35.5">35.5</option>
+            <option value="36">36</option>
+            <option value="36.5">36.5</option>
+            <option value="37">37</option>
+            <option value="37.5">37.5</option>
+            <option value="38">38</option>
+            <option value="38.5">38.5</option>
+            <option value="39">39</option>
+            <option value="39.5">39.5</option>
+            <option value="40">40</option>
+            <option value="40.5">40.5</option>
+            <option value="41">41</option>
+            <option value="41.5">41.5</option>
+            <option value="42">42</option>
+            <option value="42.5">42.5</option>
+            <option value="43">43</option>
+            <option value="43.5">43.5</option>
+            <option value="44.5">44.5</option>
+            <option value="45">45</option>
+            <option value="45.5">45.5</option>
+            <option value="46">46</option>
+            <option value="46.5">46.5</option>
+            <option value="47">47</option>
+            <option value="47.5">47.5</option>
+            <option value="48">48</option>
+            <option value="48.5">48.5</option>
+            <option value="49">49</option>
+            <option value="49.5">49.5</option>
+            <option value="50">50</option>
+            <option value="50.5">50.5</option>
+            <option value="51">51</option>
+            <option value="51.5">51.5</option>
+            <option value="52">52</option>
+            <option value="52.5">52.5</option>
+            <option value="53">53</option>
+            <option value="53.5">53.5</option>
+            <option value="54">54</option>
+            <option value="54.5">54.5</option>
+            <option value="55">55</option>
+            <option value="55.5">55.5</option>
+            <option value="56">56</option>
+            <option value="56.5">56.5</option>
+            <option value="57">57</option>
+            <option value="57.5">57.5</option>
+            <option value="58">58</option>
+        </select>
+        
+        <label for="colore_capelli">7. Colore Naturale dei Capelli:</label>
+        <select id="colore_capelli" name="colore_capelli" required>
+            <option value="">Seleziona l'Opzione Più Coerente</option>
+            <option value="Castano Cenere">Castano Cenere</option>
+            <option value="Nero Corvino Opaco">Nero Corvino Opaco</option>
+            <option value="Biondo Sbiadito">Biondo Sbiadito</option>
+            <option value="Inclassificabile">Non classificabile</option>
+        </select>
+
+        <label for="colore_capelli">7. Colore Naturale degli Occhi:</label>
+        <select id="colore_capelli" name="colore_capelli" required>
+            <option value="">Seleziona l'Opzione Ufficiale</option>
+            <option value="Blu Zaffiro">Blu </option>
+            <option value="Verde Foresta">Verde </option>
+            <option value="Verde Foresta">Verde con sfumature di altri colori </option>
+            <option value="Castano Miele">Castano</option>
+            <option value="Grigio Torbido">Grigio</option>
+            <option value="Eterocromia Occulta">Eterocromia</option>
+        </select>
+        
+        <label for="animale_domestico">8. Possiede animali domestici?:</label>
+        <select id="animale_domestico" name="animale_domestico" required>
+            <option value="">Seleziona l'animale</option>
+            <option value="Cane">Cane</option>
+            <option value="Gatto">Gatto </option>
+            <option value="Pesce Rosso">Pesce Rosso </option>
+            <option value="Nessuno">Nessuno </option>
+        </select>
+                
+        <label for="mezzo_trasporto">9. Mezzo di Trasporto Utilizzato:</label>
+        <select name="" id="">
+            <option value="">Selezionare un veicolo</option>
+            <option value="">Bicicletta</option>
+            <option value="">Autobus</option>
+            <option value="">Automobile di proprietà propria</option>
+            <option value="">Motocicli</option>
+            <option value="">Piedi</option>
+        </select>
+
+        <button type="submit" class="invia">
+            <a href="https://drive.google.com/file/d/15xUT2ogbixzS8GRCydJmyBDZTgIOi821/view?usp=sharing">INVIA DATI PER LA REVISIONE</a>
+        </button>
+
+    </form>
+</div>
+
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.chiamaci{
+    background-color: rgba(25, 135, 84);
+    color: white;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    gap:10px;
+    height: 70px;
+    font-size: 20px;
+}
+
+.menu{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:10px;
+    padding:5px 0px;  
+    height: 60px;
+}
+
+.menu img{
+    width:auto;
+    height: 55px;
+}
+
+.accedi{
+    background-color: white;
+    border: 1.5px solid rgba(207, 29, 86);
+    color:rgba(207, 29, 86);
+    height: 40px;
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+.sopra{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow:0px 1px 5px rgb(186, 185, 185) ;
+}
+
+.descrizione{
+    padding:10px;
+    padding-top:130px;
+    background-color: #f5f7f7;
+    height: 150px;
+}
+
+
+.percorso{
+    font-weight: 300;
+    font-size: 12px;
+    &-strong{
+        font-weight: bold;
+    }
+}
+
+h3{
+    font-size: 20px;
+}
+
+.regole{
+    padding:10px ;
+}
+.regole p{
+    font-size: 14px;
+}
+
+.box{
+    background-color: rgba(207, 29, 86);
+    margin:30px 10px;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box p{
+    text-align: center;
+    margin-top: 0;
+}
+.box h2{
+    margin-bottom: 5px;
+}
+
+.richiedi{
+    color:rgba(207, 29, 86);
+    background-color: white;
+    border: none;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.footer{
+    margin: 10px;
+}
+
+.footer img{
+    width: auto;
+    height: 60px;
+}
+
+.link{
+    display: flex;
+    gap:15px;
+    color:rgba(207, 29, 86);
+    
+}
+
+.link a{
+        text-decoration: underline;
+        color:rgba(207, 29, 86);
+        margin-bottom: 10px;
+    }
+
+.social{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+form label{
+display: block; margin-top: 15px; font-weight: bold;}
+
+form input{
+    width: 100%; padding: 10px; margin-top: 5px; box-sizing: border-box; border: 1px solid #ccc;
+}
+form select{
+    width: 100%; padding: 10px; margin-top: 5px; box-sizing: border-box; border: 1px solid #ccc;
+}
+
+.invia{
+    background-color: rgba(207, 29, 86);
+    width: 100%; padding: 15px; margin-top: 30px;
+    color: white; border: none; border-radius: 5px; font-weight: bold; cursor: pointer; font-size: 1.2em;
+}
+
+.invia a{
+    text-decoration: none;
+    color:white
+}
+
+
+form{
+    padding-top:130px
+}
